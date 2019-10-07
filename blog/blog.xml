@@ -4,12 +4,38 @@
 	<title type="text" xml:lang="en">ESP group</title>
     <link type="application/atom+xml" href="/blog/blog.xml" rel="self"/>
     <link href="/"/>
-	<updated>2019-09-17T09:14:25+03:00</updated>
+	<updated>2019-10-07T13:41:41+03:00</updated>
     <id>/</id>
 	<author>
 		<name>the Sampa group</name>
 	</author>
 	
+	
+	<entry>
+        
+            <title>04 October 2019</title>
+            <link href="/blog/"/>
+        
+		<updated>2019-10-04T00:00:00+03:00</updated>
+        <id>/blog/2019/10/04/dhpizza.html</id>
+		<content type="html">&lt;p&gt;Alan and Dorota were invited to give a seminar talk called
+&lt;a href=&quot;https://glowacka.org/img/HELDIG_TALK_041019.pdf&quot;&gt;Manuscripts and newspapers: Using machine learning to map the sciences and identify political bias&lt;/a&gt;
+at the Helsinki Centre for Digital Humanities (HELDIG) &lt;a href=&quot;https://www.helsinki.fi/en/helsinki-centre-for-digital-humanities/discovering-new-patterns-in-scientific-literature-and-news-data&quot;&gt;pizza seminar&lt;/a&gt;.&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+        
+            <title>19 September 2019</title>
+            <link href="/blog/"/>
+        
+		<updated>2019-09-19T00:00:00+03:00</updated>
+        <id>/blog/2019/09/19/recsys.html</id>
+		<content type="html">&lt;p&gt;Dorota gave a tutorial on
+&lt;a href=&quot;https://glowacka.org/img/bandits-recsys.pdf&quot;&gt;Bandit Algorithms in Recommender Systems&lt;/a&gt;
+at &lt;a href=&quot;https://recsys.acm.org/recsys19/&quot;&gt;RecSys 2019&lt;/a&gt; in Copenhagen, Denmark.&lt;/p&gt;
+</content>
+	</entry>
 	
 	<entry>
         
@@ -219,28 +245,6 @@ at &lt;a href=&quot;https://www.cikm2018.units.it/&quot;&gt;CIKM 2018&lt;/a&gt; 
 		<updated>2018-08-15T00:00:00+03:00</updated>
         <id>/blog/2018/08/15/msc.html</id>
 		<content type="html">&lt;p&gt;Congratulations to Ioannis Gkiliris, Chien-yu Huang, Dhruv Tripathi and Peiyu Zhang for submitting their MSc dissertations. Good luck for the future!&lt;/p&gt;
-</content>
-	</entry>
-	
-	<entry>
-        
-            <title>07 August 2018</title>
-            <link href="/blog/"/>
-        
-		<updated>2018-08-07T00:00:00+03:00</updated>
-        <id>/blog/2018/08/07/cikmaccept.html</id>
-		<content type="html">&lt;p&gt;Paper accepted at &lt;a href=&quot;https://www.cikm2018.units.it/&quot;&gt;CIKM 2018&lt;/a&gt;!&lt;/p&gt;
-</content>
-	</entry>
-	
-	<entry>
-        
-            <title>15 June 2018</title>
-            <link href="/blog/"/>
-        
-		<updated>2018-06-15T00:00:00+03:00</updated>
-        <id>/blog/2018/06/15/joel.html</id>
-		<content type="html">&lt;p&gt;Congratulations to Dr Joel Pyykkö for successfully defending his PhD in Online Personalization in Exploratory Search. For more details see the announcement &lt;a href=&quot;https://www.helsinki.fi/en/news/science/joel-pyykko-defends-his-phd-thesis-on-online-personalization-in-exploratory-search&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
 </content>
 	</entry>
 	
