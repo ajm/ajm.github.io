@@ -132,7 +132,7 @@ ul.project-people {
 /* Customize container */
 @media (min-width: 768px) {
   .container {
-    max-width: 940px; }
+    max-width: 1000px; }
 
   .card-columns {
     -webkit-column-count: 3;
