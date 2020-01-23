@@ -4,7 +4,7 @@
 	<title type="text" xml:lang="en">ESP group</title>
     <link type="application/atom+xml" href="/blog/blog.xml" rel="self"/>
     <link href="/"/>
-	<updated>2020-01-23T10:41:12+02:00</updated>
+	<updated>2020-01-23T10:45:34+02:00</updated>
     <id>/</id>
 	<author>
 		<name>the Sampa group</name>
@@ -223,7 +223,7 @@ hosted at &lt;a href=&quot;https://iui.acm.org/2019/&quot;&gt;IUI 2019&lt;/a&gt;
         <id>/blog/2019/03/10/chiir.html</id>
 		<content type="html">&lt;p&gt;Alan presented 
 &lt;a href=&quot;https://dl.acm.org/citation.cfm?id=3298957&quot;&gt;How Relevance Feedback is Framed Affects User Experience, but not Behaviour&lt;/a&gt;
-and Arlene (&lt;a href=&quot;img/arlene_poster_chiir.jpg&quot;&gt;pictured&lt;/a&gt;) presented &lt;a href=&quot;https://dl.acm.org/citation.cfm?id=3298953&quot;&gt;Holes in the Outline: Subject-dependent Abstract Quality and its Implications for Scientific Literature Search&lt;/a&gt;
+and Arlene (&lt;a href=&quot;https://glowacka.org/img/arlene_poster_chiir.jpg&quot;&gt;pictured&lt;/a&gt;) presented &lt;a href=&quot;https://dl.acm.org/citation.cfm?id=3298953&quot;&gt;Holes in the Outline: Subject-dependent Abstract Quality and its Implications for Scientific Literature Search&lt;/a&gt;
 at &lt;a href=&quot;https://sigir.org/chiir2019/&quot;&gt;CHIIR 2019&lt;/a&gt; in Glasgow, Scotland.&lt;/p&gt;
 </content>
 	</entry>
