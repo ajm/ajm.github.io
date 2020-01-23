@@ -4,12 +4,60 @@
 	<title type="text" xml:lang="en">ESP group</title>
     <link type="application/atom+xml" href="/blog/blog.xml" rel="self"/>
     <link href="/"/>
-	<updated>2020-01-22T20:17:42+02:00</updated>
+	<updated>2020-01-23T10:41:12+02:00</updated>
     <id>/</id>
 	<author>
 		<name>the Sampa group</name>
 	</author>
 	
+	
+	<entry>
+        
+            <title>28 November 2019</title>
+            <link href="/blog/"/>
+        
+		<updated>2019-11-28T00:00:00+02:00</updated>
+        <id>/blog/2019/11/28/langtechtalk.html</id>
+		<content type="html">&lt;p&gt;Alan and Dorota were invited to give a seminar talk called
+&lt;a href=&quot;https://blogs.helsinki.fi/language-technology/research-seminar-fall-2019/&quot;&gt;Manuscripts and newspapers: Using machine learning to map the sciences and identify political bias&lt;/a&gt;
+at Language Technology, University of Helsinki.&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+        
+            <title>24 November 2019</title>
+            <link href="/blog/"/>
+        
+		<updated>2019-11-24T00:00:00+02:00</updated>
+        <id>/blog/2019/11/24/visitor.html</id>
+		<content type="html">&lt;p&gt;&lt;a href=&quot;http://apbarraza.com/&quot;&gt;Andrea Barraza&lt;/a&gt; from the &lt;a href=&quot;https://www.insight-centre.org/&quot;&gt;Insight Centre for Data Analytics&lt;/a&gt;, &lt;a href=&quot;http://www.nuigalway.ie/&quot;&gt;National University of Ireland, Galway&lt;/a&gt; is visiting ESP group from 24/11-08/12.&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+        
+            <title>22 November 2019</title>
+            <link href="/blog/"/>
+        
+		<updated>2019-11-22T00:00:00+02:00</updated>
+        <id>/blog/2019/11/22/nokiatalk.html</id>
+		<content type="html">&lt;p&gt;Dorota gave a talk called Bandit algorithms in information retrieval and recommender systems at the Nokia AI seminar.&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+        
+            <title>15 November 2019</title>
+            <link href="/blog/"/>
+        
+		<updated>2019-11-15T00:00:00+02:00</updated>
+        <id>/blog/2019/11/15/libtalk.html</id>
+		<content type="html">&lt;p&gt;Dorota was invited to give an invited talk entitled 
+&lt;a href=&quot;https://www.stks.fi/koulutus/hyvaan-tulevaisuuteen-hyvassa-seurassa-stksn-90-vuotisjuhlaseminaari/&quot;&gt;Don’t search, explore: supporting scientific literature exploration&lt;/a&gt;
+for the 90th anniversary of the Finnish research library association.&lt;/p&gt;
+</content>
+	</entry>
 	
 	<entry>
         
@@ -19,7 +67,7 @@
 		<updated>2019-10-04T00:00:00+03:00</updated>
         <id>/blog/2019/10/04/dhpizza.html</id>
 		<content type="html">&lt;p&gt;Alan and Dorota were invited to give a seminar talk called
-&lt;a href=&quot;https://glowacka.org/lectures/seminars/HELDIG_TALK_041019.pdf&quot;&gt;Manuscripts and newspapers: Using machine learning to map the sciences and identify political bias&lt;/a&gt;
+&lt;a href=&quot;https://glowacka.org/lectures/seminars/HELDIG_TALK_041019.pdf&quot;&gt;Discovering new patterns in scientific literature and news data&lt;/a&gt;
 at the Helsinki Centre for Digital Humanities (HELDIG) &lt;a href=&quot;https://www.helsinki.fi/en/helsinki-centre-for-digital-humanities/discovering-new-patterns-in-scientific-literature-and-news-data&quot;&gt;pizza seminar&lt;/a&gt;.&lt;/p&gt;
 </content>
 	</entry>
@@ -199,52 +247,6 @@ at &lt;a href=&quot;https://sigir.org/chiir2019/&quot;&gt;CHIIR 2019&lt;/a&gt; i
 		<updated>2019-01-01T00:00:00+02:00</updated>
         <id>/blog/2019/01/01/helsinki.html</id>
 		<content type="html">&lt;p&gt;The group has moved back to the &lt;a href=&quot;https://www.helsinki.fi/en/computer-science&quot;&gt;Department of Computer Science&lt;/a&gt;, &lt;a href=&quot;https://www.helsinki.fi/en/&quot;&gt;University of Helsinki&lt;/a&gt;. Moi moi Edinburgh! &lt;/p&gt;
-</content>
-	</entry>
-	
-	<entry>
-        
-            <title>30 November 2018</title>
-            <link href="/blog/"/>
-        
-		<updated>2018-11-30T00:00:00+02:00</updated>
-        <id>/blog/2018/11/30/chiiraccept.html</id>
-		<content type="html">&lt;p&gt;Two papers accepted at &lt;a href=&quot;https://sigir.org/chiir2019/&quot;&gt;CHIIR 2019&lt;/a&gt;, based on work by Chien-yu Huang and Dhruv Tripathi during their MSc projects. Well done! &lt;/p&gt;
-</content>
-	</entry>
-	
-	<entry>
-        
-            <title>03 November 2018</title>
-            <link href="/blog/"/>
-        
-		<updated>2018-11-03T00:00:00+02:00</updated>
-        <id>/blog/2018/11/03/esidecfp.html</id>
-		<content type="html">&lt;p&gt;Please submit your articles to our IUI 2019 workshop on Exploratory Search and Interactive Data Analytics in Los Angeles, USA! Please see the call for papers on the &lt;a href=&quot;https://sites.google.com/view/esida2019&quot;&gt;ESIDA website&lt;/a&gt; for details.&lt;/p&gt;
-</content>
-	</entry>
-	
-	<entry>
-        
-            <title>23 October 2018</title>
-            <link href="/blog/"/>
-        
-		<updated>2018-10-23T00:00:00+03:00</updated>
-        <id>/blog/2018/10/23/cikm18.html</id>
-		<content type="html">&lt;p&gt;&lt;a href=&quot;https://twitter.com/dorota_glowacka&quot;&gt;Dorota&lt;/a&gt; presented our paper
-&lt;a href=&quot;https://dl.acm.org/citation.cfm?id=3269297&quot;&gt;How consistent is relevance feedback in exploratory search?&lt;/a&gt;
-at &lt;a href=&quot;https://www.cikm2018.units.it/&quot;&gt;CIKM 2018&lt;/a&gt; in Torino, Italy.&lt;/p&gt;
-</content>
-	</entry>
-	
-	<entry>
-        
-            <title>15 August 2018</title>
-            <link href="/blog/"/>
-        
-		<updated>2018-08-15T00:00:00+03:00</updated>
-        <id>/blog/2018/08/15/msc.html</id>
-		<content type="html">&lt;p&gt;Congratulations to Ioannis Gkiliris, Chien-yu Huang, Dhruv Tripathi and Peiyu Zhang for submitting their MSc dissertations. Good luck for the future!&lt;/p&gt;
 </content>
 	</entry>
 	
