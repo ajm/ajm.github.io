@@ -4,12 +4,66 @@
 	<title type="text" xml:lang="en">ESP group</title>
     <link type="application/atom+xml" href="/blog/blog.xml" rel="self"/>
     <link href="/"/>
-	<updated>2020-12-16T21:48:04+02:00</updated>
+	<updated>2022-01-10T12:17:20+02:00</updated>
     <id>/</id>
 	<author>
 		<name>the Sampa group</name>
 	</author>
 	
+	
+	<entry>
+        
+            <title>02 November 2021</title>
+            <link href="/blog/"/>
+        
+		<updated>2021-11-02T00:00:00+02:00</updated>
+        <id>/blog/2021/11/02/cikm21.html</id>
+		<content type="html">&lt;p&gt;Ivan presented our paper on 
+&lt;a href=&quot;https://dl.acm.org/doi/abs/10.1145/3459637.3482103&quot;&gt;Exploratory Search of GANs with Contextual Bandits&lt;/a&gt;
+at &lt;a href=&quot;https://www.cikm2021.org/&quot;&gt;CIKM 2021&lt;/a&gt;.&lt;/p&gt;
+
+</content>
+	</entry>
+	
+	<entry>
+        
+            <title>01 October 2021</title>
+            <link href="/blog/"/>
+        
+		<updated>2021-10-01T00:00:00+03:00</updated>
+        <id>/blog/2021/10/01/nordicai21.html</id>
+		<content type="html">&lt;p&gt;Yang presented our work on semantic shift detection at &lt;a href=&quot;https://nordicaimeet.com/program&quot;&gt;Nordic AI meet&lt;/a&gt; (selected for oral presentation).&lt;/p&gt;
+
+</content>
+	</entry>
+	
+	<entry>
+        
+            <title>11 July 2021</title>
+            <link href="/blog/"/>
+        
+		<updated>2021-07-11T00:00:00+03:00</updated>
+        <id>/blog/2021/07/11/ictir21.html</id>
+		<content type="html">&lt;p&gt;Yang presented our paper 
+&lt;a href=&quot;https://dl.acm.org/doi/abs/10.1145/3471158.3472234&quot;&gt;Can Language Models Identify Wikipedia Articles with Readability and Style Issues?&lt;/a&gt;
+at &lt;a href=&quot;https://ictir2021.org/&quot;&gt;ICTIR 2021&lt;/a&gt;.&lt;/p&gt;
+
+</content>
+	</entry>
+	
+	<entry>
+        
+            <title>16 March 2021</title>
+            <link href="/blog/"/>
+        
+		<updated>2021-03-16T00:00:00+02:00</updated>
+        <id>/blog/2021/03/16/chiir21.html</id>
+		<content type="html">&lt;p&gt;Alan presented our paper 
+&lt;a href=&quot;https://dl.acm.org/doi/abs/10.1145/3406522.3446020&quot;&gt;Query Suggestions as Summarizations in Exploratory Search&lt;/a&gt;
+at &lt;a href=&quot;https://acm-chiir.github.io/chiir2021/&quot;&gt;CHIIR 2021&lt;/a&gt;.&lt;/p&gt;
+
+</content>
+	</entry>
 	
 	<entry>
         
@@ -203,60 +257,6 @@ at Language Technology, University of Helsinki.&lt;/p&gt;
 		<updated>2019-11-24T00:00:00+02:00</updated>
         <id>/blog/2019/11/24/visitor.html</id>
 		<content type="html">&lt;p&gt;&lt;a href=&quot;http://apbarraza.com/&quot;&gt;Andrea Barraza&lt;/a&gt; from the &lt;a href=&quot;https://www.insight-centre.org/&quot;&gt;Insight Centre for Data Analytics&lt;/a&gt;, &lt;a href=&quot;http://www.nuigalway.ie/&quot;&gt;National University of Ireland, Galway&lt;/a&gt; is visiting ESP group from 24/11-08/12.&lt;/p&gt;
-
-</content>
-	</entry>
-	
-	<entry>
-        
-            <title>22 November 2019</title>
-            <link href="/blog/"/>
-        
-		<updated>2019-11-22T00:00:00+02:00</updated>
-        <id>/blog/2019/11/22/nokiatalk.html</id>
-		<content type="html">&lt;p&gt;Dorota gave a talk called Bandit algorithms in information retrieval and recommender systems at the Nokia AI seminar.&lt;/p&gt;
-
-</content>
-	</entry>
-	
-	<entry>
-        
-            <title>15 November 2019</title>
-            <link href="/blog/"/>
-        
-		<updated>2019-11-15T00:00:00+02:00</updated>
-        <id>/blog/2019/11/15/libtalk.html</id>
-		<content type="html">&lt;p&gt;Dorota was invited to give an invited talk entitled 
-&lt;a href=&quot;https://www.stks.fi/koulutus/hyvaan-tulevaisuuteen-hyvassa-seurassa-stksn-90-vuotisjuhlaseminaari/&quot;&gt;Don’t search, explore: supporting scientific literature exploration&lt;/a&gt;
-for the 90th anniversary of the Finnish research library association.&lt;/p&gt;
-
-</content>
-	</entry>
-	
-	<entry>
-        
-            <title>04 October 2019</title>
-            <link href="/blog/"/>
-        
-		<updated>2019-10-04T00:00:00+03:00</updated>
-        <id>/blog/2019/10/04/dhpizza.html</id>
-		<content type="html">&lt;p&gt;Alan and Dorota were invited to give a seminar talk called
-&lt;a href=&quot;https://glowacka.org/lectures/seminars/HELDIG_TALK_041019.pdf&quot;&gt;Discovering new patterns in scientific literature and news data&lt;/a&gt;
-at the Helsinki Centre for Digital Humanities (HELDIG) &lt;a href=&quot;https://www.helsinki.fi/en/helsinki-centre-for-digital-humanities/discovering-new-patterns-in-scientific-literature-and-news-data&quot;&gt;pizza seminar&lt;/a&gt;.&lt;/p&gt;
-
-</content>
-	</entry>
-	
-	<entry>
-        
-            <title>19 September 2019</title>
-            <link href="/blog/"/>
-        
-		<updated>2019-09-19T00:00:00+03:00</updated>
-        <id>/blog/2019/09/19/recsys.html</id>
-		<content type="html">&lt;p&gt;Dorota gave a tutorial on
-&lt;a href=&quot;https://glowacka.org/img/bandits-recsys.pdf&quot;&gt;Bandit Algorithms in Recommender Systems&lt;/a&gt;
-at &lt;a href=&quot;https://recsys.acm.org/recsys19/&quot;&gt;RecSys 2019&lt;/a&gt; in Copenhagen, Denmark.&lt;/p&gt;
 
 </content>
 	</entry>
