@@ -87,6 +87,309 @@ role_remain:
 <h2>People</h2>
 
 <div class="row">
+<<<<<<< HEAD
+    
+        
+        
+        <!--<div class="col-sm-4 people faculty">-->
+            
+                
+                
+                <div class="col-md-4 people faculty">
+                <div class="people">
+                    <a href="https://scholar.google.fi/citations?user=sDZkDHQAAAAJ&amp;hl=en">
+                    
+                    
+                    
+                    
+                        <img class="img-circle profile" src="/img/dorota2.jpg" />
+                    
+                    </a>
+                    <div class="person">
+                    <a href="https://scholar.google.fi/citations?user=sDZkDHQAAAAJ&amp;hl=en">
+                        <h4>Dorota Glowacka</h4></a>
+                    <div class="bio">
+                        <p>Group Leader<br/>Associate Professor</p>
+                <a href="mailto:glowacka@cs.helsinki.fi">glowacka@cs.helsinki.fi</a>
+                    </div>
+                    </div>
+                </div>
+                </div>
+                
+            
+                
+                
+            
+                
+                
+            
+                
+                
+            
+                
+                
+            
+                
+                
+            
+                
+                
+            
+                
+                
+            
+                
+                
+            
+                
+                
+            
+                
+                
+            
+                
+                
+            
+                
+                
+            
+                
+                
+            
+                
+                
+            
+                
+                
+            
+                
+                
+            
+                
+                
+            
+                
+                
+            
+                
+                
+            
+                
+                
+            
+                
+                
+            
+                
+                
+            
+                
+                
+            
+                
+                
+            
+                
+                
+            
+                
+                
+            
+                
+                
+            
+                
+                
+            
+                
+                
+            
+            <!--</div>-->
+        
+        
+        
+        
+        
+        <!--<div class="col-sm-4 people postdoc">-->
+            
+                
+                
+            
+                
+                
+                <div class="col-md-4 people postdoc">
+                <div class="people">
+                    <a href="https://scholar.google.fi/citations?user=JIKUSwIAAAAJ&amp;hl=en">
+                    
+                    
+                    
+                    
+                        <img class="img-circle profile" src="/img/alan2.jpg" />
+                    
+                    </a>
+                    <div class="person">
+                    <a href="https://scholar.google.fi/citations?user=JIKUSwIAAAAJ&amp;hl=en">
+                        <h4>Alan Medlar</h4></a>
+                    <div class="bio">
+                        <p>University researcher</p>
+                <a href="mailto:alan.j.medlar@helsinki.fi">alan.j.medlar@helsinki.fi</a>
+                    </div>
+                    </div>
+                </div>
+                </div>
+                
+            
+                
+                
+                <div class="col-md-4 people postdoc">
+                <div class="people">
+                    <a href="https://scholar.google.com/citations?hl=en&amp;user=7hp-T8UAAAAJ">
+                    
+                    
+                    
+                    
+                        <img class="img-circle profile" src="/img/denis.jpg" />
+                    
+                    </a>
+                    <div class="person">
+                    <a href="https://scholar.google.com/citations?hl=en&amp;user=7hp-T8UAAAAJ">
+                        <h4>Denis Kotkov</h4></a>
+                    <div class="bio">
+                        <p>Post-doctoral researcher</p>
+                <a href="mailto:"></a>
+                    </div>
+                    </div>
+                </div>
+                </div>
+                
+            
+                
+                
+            
+                
+                
+            
+                
+                
+            
+                
+                
+            
+                
+                
+            
+                
+                
+            
+                
+                
+            
+                
+                
+            
+                
+                
+            
+                
+                
+            
+                
+                
+            
+                
+                
+            
+                
+                
+            
+                
+                
+            
+                
+                
+            
+                
+                
+            
+                
+                
+            
+                
+                
+            
+                
+                
+            
+                
+                
+            
+                
+                
+            
+                
+                
+            
+                
+                
+            
+                
+                
+            
+                
+                
+            
+                
+                
+            
+                
+                
+            
+            <!--</div>-->
+        
+        
+        
+        <!--<div class="col-sm-4 people grad">-->
+            
+                
+                
+            
+                
+                
+            
+                
+                
+            
+                
+                
+                <div class="col-md-4 people grad">
+                <div class="people">
+                    <a href="https://www.glowacka.org">
+                    
+                    
+                    
+                    
+                        <img class="img-circle profile" src="/img/yang.png" />
+                    
+                    </a>
+                    <div class="person">
+                    <a href="https://www.glowacka.org">
+                        <h4>Yang Liu</h4></a>
+                    <div class="bio">
+                        <p>PhD student</p>
+                <a href="mailto:yang.liu@helsinki.fi">yang.liu@helsinki.fi</a>
+                    </div>
+                    </div>
+                </div>
+                </div>
+                
+            
+                
+                
+            
+                
+                
+                <div class="col-md-4 people grad">
+=======
     {% for grp in page.role_groups %}
         {% for role in site.roles %}
         {% if grp contains role.key %}
@@ -95,6 +398,7 @@ role_remain:
                 {% assign person = item[1] %}
                 {% if person.role == role.key %}
                 <div class="col-md-4 people {{ role.key }}">
+>>>>>>> c605b10372b00144cb060f7d02b4adb725755efe
                 <div class="people">
                     {% if person.webpage %}<a href="{{ person.webpage |escape }}">{% endif %}
                     {% assign imgurl = false %}
@@ -161,6 +465,13 @@ role_remain:
         {% endif %}
         {% endfor %}
     </div>
+<<<<<<< HEAD
+
+</div>
+
+
+=======
 {% endfor %}
+>>>>>>> c605b10372b00144cb060f7d02b4adb725755efe
 </div>
 
