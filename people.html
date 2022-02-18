@@ -1,73 +1,16 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="utf-8">
-        <title>ESP group: People</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link href="/css/bootstrap.min.css" rel="stylesheet">
-        <link href="/css/sampa.css" rel="stylesheet">
-        <link rel="alternate" type="application/atom+xml" title="Atom"
-            href="/blog/blog.xml">
-            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
-            <!--
-        <link rel="icon" type="image/png" sizes="32x32" href="https://www.ed.ac.uk/sites/all/themes/uoe/favicon/favicon-32x32.png?t=ozxdx1" />
-        <link rel="icon" type="image/png" sizes="16x16" href="https://www.ed.ac.uk/sites/all/themes/uoe/favicon/favicon-16x16.png?t=ozxdx1" />
-            -->
-    </head>
-    <body>      
-        <div class="container">
-          <div class="header">
-            <b style="font-size: 18pt;"><a style="text-decoration: none; color: #000000;" href="/">Exploratory Search and Personalisation (ESP) group</a></b>
-            <!--<a href="/">
-                <img src="/img/logo.jpg" srcset="/img/logo.jpg 2x" alt="Glowacka group" id="logo">
-            </a>-->
-            <ul class="nav nav-pills pull-right">
-                  
-                  
-                    
-                    <li class="nav-item">
-                      <a class="nav-link " href="/">
-                        Home
-                      </a>
-                    </li>
-                  
-                    
-                    <li class="nav-item">
-                      <a class="nav-link " href="/publications.html">
-                        Publications
-                      </a>
-                    </li>
-                  
-                    
-                    <li class="nav-item">
-                      <a class="nav-link " href="/teaching.html">
-                        Teaching
-                      </a>
-                    </li>
-                  
-                    
-                    <li class="nav-item">
-                      <a class="nav-link " href="/ir.html">
-                        IR Course
-                      </a>
-                    </li>
-                  
-            </ul>
-          </div>
+---
+layout: default
+title: People
+---
 
-          
-
-  <h2>People</h2>
-
-          
-<div class="content">
 <p>Some of the group in action (apparently Mark, Karin, Jacob, Vincent, Carlo were off doing real work).</p>
 
 <div class="inset-image">
-    <img src="/img/sampayak.jpg" alt="Sampa-yak"
+    <img src="{{ site.base }}/img/sampayak.jpg" alt="Sampa-yak"
     class="img-responsive img-rounded">
 </div>
 
+<<<<<<< HEAD
 
   <h3>Faculty</h3>
   <dl class="people">
@@ -403,132 +346,34 @@
   </dl>
 
   <h3>Graduate Students</h3>
+=======
+{% for role in site.roles %}
+  <h3>{{ role.name }}</h3>
+>>>>>>> c605b10372b00144cb060f7d02b4adb725755efe
   <dl class="people">
-  
-    
-    
-  
-    
-    
-  
-    
-    
-  
-    
-    
+  {% for item in site.data.people %}
+    {% assign person = item[1] %}
+    {% if person.role == role.key %}
       <dt class="person">
-        
-        <a href="https://www.glowacka.org">
-        
-          Yang Liu
-        
+        {% if person.webpage %}
+        <a href="{{ person.webpage |escape }}">
+        {% endif %}
+          {{ person.display_name }}
+        {% if person.webpage %}
         </a>
-        
+        {% endif %}
       </dt>
       <dd>
-        
-          <p>PhD student</p>
-
-        
+        {% if person.bio %}
+          {{ person.bio | markdownify }}
+        {% endif %}
       </dd>
-    
-  
-    
-    
-  
-    
-    
-      <dt class="person">
-        
-        <a href="https://glowacka.org/">
-        
-          Daniel Koch
-        
-        </a>
-        
-      </dt>
-      <dd>
-        
-          <p>Research assistant</p>
-
-        
-      </dd>
-    
-  
-    
-    
-  
-    
-    
-  
-    
-    
-  
-    
-    
-  
-    
-    
-  
-    
-    
-  
-    
-    
-  
-    
-    
-  
-    
-    
-  
-    
-    
-  
-    
-    
-  
-    
-    
-  
-    
-    
-  
-    
-    
-  
-    
-    
-  
-    
-    
-  
-    
-    
-  
-    
-    
-  
-    
-    
-  
-    
-    
-  
-    
-    
-  
-    
-    
-  
-    
-    
-  
-    
-    
-  
+    {% endif %}
+  {% endfor %}
   </dl>
+{% endfor %}
 
+<<<<<<< HEAD
   <h3>Undergraduate Students</h3>
   <dl class="people">
   
@@ -1295,3 +1140,5 @@
         
     </body>
 </html>
+=======
+>>>>>>> c605b10372b00144cb060f7d02b4adb725755efe

@@ -1,64 +1,16 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="utf-8">
-        <title>ESP group: Home</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link href="/css/bootstrap.min.css" rel="stylesheet">
-        <link href="/css/sampa.css" rel="stylesheet">
-        <link rel="alternate" type="application/atom+xml" title="Atom"
-            href="/blog/blog.xml">
-            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
-            <!--
-        <link rel="icon" type="image/png" sizes="32x32" href="https://www.ed.ac.uk/sites/all/themes/uoe/favicon/favicon-32x32.png?t=ozxdx1" />
-        <link rel="icon" type="image/png" sizes="16x16" href="https://www.ed.ac.uk/sites/all/themes/uoe/favicon/favicon-16x16.png?t=ozxdx1" />
-            -->
-    </head>
-    <body>      
-        <div class="container">
-          <div class="header">
-            <b style="font-size: 18pt;"><a style="text-decoration: none; color: #000000;" href="/">Exploratory Search and Personalisation (ESP) group</a></b>
-            <!--<a href="/">
-                <img src="/img/logo.jpg" srcset="/img/logo.jpg 2x" alt="Glowacka group" id="logo">
-            </a>-->
-            <ul class="nav nav-pills pull-right">
-                  
-                  
-                    
-                    <li class="nav-item">
-                      <a class="nav-link active" href="/">
-                        Home
-                      </a>
-                    </li>
-                  
-                    
-                    <li class="nav-item">
-                      <a class="nav-link " href="/publications.html">
-                        Publications
-                      </a>
-                    </li>
-                  
-                    
-                    <li class="nav-item">
-                      <a class="nav-link " href="/teaching.html">
-                        Teaching
-                      </a>
-                    </li>
-                  
-                    
-                    <li class="nav-item">
-                      <a class="nav-link " href="/ir.html">
-                        IR Course
-                      </a>
-                    </li>
-                  
-            </ul>
-          </div>
+---
+layout: default
+title: Home
+notitle: true
 
-          
+role_groups:
+    - [faculty,postdoc,grad]
 
-          
-<div class="content">
+role_remain:
+    - [ugrad-alum,alum]
+
+---
+
 <div class="jumbotron">
     <p>We use <b>reinforcement learning</b> and <b>user modelling</b> to develop practical systems that help users navigate massive data sets interactively. The research interests of the group include personalisation, <a href="https://doi.org/10.1002/asi.23617">exploratory search</a>, <a href="http://doi.acm.org/10.1145/3025171.3025205">experimental design</a> and <a href="http://doi.acm.org/10.1145/3020165.3022141">evaluation methodology</a>. Our research is published in top venues for information retrieval and human-computer interaction. 
     We are part of the <a href="https://www.helsinki.fi/en/computer-science">Department of Computer Science</a> at the <a href="https://www.helsinki.fi/en/">University of Helsinki</a>.</p>
@@ -78,95 +30,13 @@
 
 <h2>News</h2>
 <ul class="news">
-
-<li>
-    
-    
-    
-    <div class="icon"><i class="fa fa-fire"></i></div>
-    <div class="text">
-        <div class="date">12 December 2021</div>
-        
-            <p>Long paper accepted to the <a href="https://recsystrack.wordpress.com/">Recommender Systems track</a> at <a href="http://www.sigapp.org/sac/sac2022/">SAC 2022</a>!</p>
-
-
-        
-    </div>
-</li>
-
-
-<li>
-    
-    
-    
-    <div class="icon"><i class="fa fa-fire"></i></div>
-    <div class="text">
-        <div class="date">07 December 2021</div>
-        
-            <p>Resources paper accepted at <a href="https://ai.ur.de/chiir2022/">CHIIR 2022</a>!</p>
-
-
-        
-    </div>
-</li>
-
-
-<li>
-    
-    
-    
-    <div class="icon"><i class="fa fa-file-text-o"></i></div>
-    <div class="text">
-        <div class="date">10 November 2021</div>
-        
-            <p>Yang presented our paper 
-<a href="https://arxiv.org/abs/2104.03776">Statistically Significant Detection of Semantic Shifts using Contextual Word Embeddings</a>
-at <a href="https://eval4nlp.github.io/">Eval4NLP</a>, co-located with EMNLP 2021.</p>
-
-
-        
-    </div>
-</li>
-
-
-<li>
-    
-    
-    
-    <div class="icon"><i class="fa fa-file-text-o"></i></div>
-    <div class="text">
-        <div class="date">02 November 2021</div>
-        
-            <p>Ivan presented our paper on 
-<a href="https://dl.acm.org/doi/abs/10.1145/3459637.3482103">Exploratory Search of GANs with Contextual Bandits</a>
-at <a href="https://www.cikm2021.org/">CIKM 2021</a>.</p>
-
-
-        
-    </div>
-</li>
-
-
-<li>
-    
-    
-    
-    <div class="icon"><i class="fa fa-fire"></i></div>
-    <div class="text">
-        <div class="date">10 October 2021</div>
-        
-            <p>Paper accepted at <a href="https://eval4nlp.github.io/">Eval4NLP</a> workshop!</p>
-
-
-        
-    </div>
-</li>
-
-
-    
+{% for post in site.posts limit: site.front_page_news %}
+{% include news-item.html item=post %}
+{% endfor %}
+    {% assign numposts = site.posts | size %}
     <li>
         <div class="icon"><i class="fa fa-history"></i></div>
-        <div class="text"><a href="/blog/">Older news&hellip;</a></div>
+        <div class="text"><a href="{{ site.base }}/blog/">Older news&hellip;</a></div>
     </li>
 </ul>
 
@@ -174,13 +44,50 @@ at <a href="https://www.cikm2021.org/">CIKM 2021</a>.</p>
 <h2>Research Themes</h2>
 
 <div class="card-columns">
-
+{% for p in site.projects %}
+{% if p.status != "inactive" %}
+<div class="card {%if p.link or p.url%}link{%endif%}">
+    {% if p.link %}
+        {% assign proj_url = p.link %}
+    {% else %}
+        {% capture proj_url %}{{site.base}}{{p.url}}.html{% endcapture %}
+    {% endif %}
+    
+    <a href="{{proj_url}}">
+        <div class="card-block">
+            <div class="title">
+                {% if p.image %}
+                    {% assign imgurl = p.image %}
+                    {% capture init %}{{ p.image | slice: 0,1 }}{% endcapture %}
+                    {% if init == "/" %}
+                        {% capture imgurl %}{{site.base}}{{p.image}}{% endcapture %}
+                    {% endif %}
+                    <h3 class="card-title">
+                        <img class="icon img-responsive" src="{{imgurl}}" alt="{{p.title}}"/>
+                    </h3>
+                {% endif %}                
+                <h3 class="card-title">{{p.title}}</h3>
+            </div>
+            <div class="card-text">
+                {{ p.description | markdownify }}
+            </div>
+        </div>
+        {% if p.people %}
+        <div class="card-footer">
+            {% include project-people.html people=p.people %}
+        </div>
+        {% endif %}
+    </a>
+</div>
+{% endif %}
+{% endfor %}
 </div>
 -->
 
 <h2>People</h2>
 
 <div class="row">
+<<<<<<< HEAD
     
         
         
@@ -482,479 +389,89 @@ at <a href="https://www.cikm2021.org/">CIKM 2021</a>.</p>
                 
                 
                 <div class="col-md-4 people grad">
+=======
+    {% for grp in page.role_groups %}
+        {% for role in site.roles %}
+        {% if grp contains role.key %}
+        <!--<div class="col-sm-4 people {{ role.key }}">-->
+            {% for item in site.data.people %}
+                {% assign person = item[1] %}
+                {% if person.role == role.key %}
+                <div class="col-md-4 people {{ role.key }}">
+>>>>>>> c605b10372b00144cb060f7d02b4adb725755efe
                 <div class="people">
-                    <a href="https://glowacka.org/">
+                    {% if person.webpage %}<a href="{{ person.webpage |escape }}">{% endif %}
+                    {% assign imgurl = false %}
+                    {% if person.image %}
+                        {% capture init %}{{ person.image | slice: 0,2 }}{% endcapture %}
+                        {% if init == "//" %}
+                            {% assign imgurl = person.image %}
+                        {% else %}
+                            {% capture imgurl %}{{site.base}}{{person.image}}{% endcapture %}
+                        {% endif %}
+                    {% endif %}
                     
-                    
-                    
-                    
-                        <img class="img-circle profile" src="/img/placeholder.png" />
-                    
-                    </a>
+                    {% if imgurl %}
+                        <img class="img-circle profile" src="{{imgurl}}" />
+                    {% else %}
+                        <svg class="profile"><circle class="noprofile" /></svg>
+                    {% endif %}
+                    {% if person.webpage %}</a>{% endif %}
                     <div class="person">
-                    <a href="https://glowacka.org/">
-                        <h4>Daniel Koch</h4></a>
+                    {% if person.webpage %}<a href="{{ person.webpage |escape }}">{% endif %}
+                        <h4>{{person.display_name}}</h4>{% if person.webpage %}</a>{% endif %}
                     <div class="bio">
-                        <p>Research assistant</p>
-                <a href="mailto:daniel.koch@helsinki.fi">daniel.koch@helsinki.fi</a>
+                        {% if person.bio %}<p>{{person.bio}}</p>{% endif %}
+                {% if person.email %}<a href="mailto:{{person.email}}">{{person.email}}</a>{% endif %}
                     </div>
                     </div>
                 </div>
                 </div>
-                
-            
-                
-                
-            
-                
-                
-            
-                
-                
-            
-                
-                
-            
-                
-                
-            
-                
-                
-            
-                
-                
-            
-                
-                
-            
-                
-                
-            
-                
-                
-            
-                
-                
-            
-                
-                
-            
-                
-                
-            
-                
-                
-            
-                
-                
-            
-                
-                
-            
-                
-                
-            
-                
-                
-            
-                
-                
-            
-                
-                
-            
-                
-                
-            
-                
-                
-            
-                
-                
-            
-                
-                
-            
+                {% endif %}
+            {% endfor %}
             <!--</div>-->
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-
+        {% endif %}
+        {% endfor %}
+{% endfor %}
 </div>
 
 <!--Remaining roles (collaborators, undergrads, alumni) -->
 <div class="row">
-
-    <div class="col-md-7">
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-            
-            
-            
-                <h3>Past PhD Students</h3>
-                <ul class="people alum">
-                
-                    
-                    
-                
-                    
-                    
-                
-                    
-                    
-                
-                    
-                    
-                
-                    
-                    
-                
-                    
-                    
-                
-                    
-                    
-                
-                    
-                    
-                
-                    
-                    
-                
-                    
-                    
+{% for grp in page.role_remain %}
+    <div class="col-md-{% if grp contains "alum" %}7{% else %}5{% endif %}">
+        {% for role in site.roles %}
+        {% if grp contains role.key %}
+            {% assign has_members = false %}
+            {% for item in site.data.people %}
+                {% assign person = item[1] %}
+                {% if person.role == role.key %}
+                    {% assign has_members = true %}
+                {% endif %}
+            {% endfor %}
+            {% if has_members %}
+                <h3>{{ role.name }}</h3>
+                <ul class="people {{role.key}}">
+                {% for item in site.data.people %}
+                    {% assign person = item[1] %}
+                    {% if person.role == role.key %}
                     <li>
-                        <a href="https://www.inf.ed.ac.uk/people/students/Arlene_Casey.html">Arlene Casey</a>
-                         <span class="bio bio-inline">PhD, 2020</span>
+                        {% if person.webpage %}<a href="{{ person.webpage |escape }}">{% endif %}{{person.display_name}}{% if person.webpage %}</a>{% endif %}
+                        {% if person.bio %} <span class="bio bio-inline">{{person.bio}}</span>{% endif %}
                     </li>
-                    
-                
-                    
-                    
-                
-                    
-                    
-                
-                    
-                    
-                
-                    
-                    
-                
-                    
-                    
-                
-                    
-                    
-                    <li>
-                        <a href="https://fi.linkedin.com/in/joel-pyykk%C3%B6-8473a4a4">Joel Pyykkö</a>
-                         <span class="bio bio-inline">PhD, 2018</span>
-                    </li>
-                    
-                
-                    
-                    
-                    <li>
-                        <a href="https://ie.linkedin.com/in/kumaripaba">Kumaripaba Athukorala</a>
-                         <span class="bio bio-inline">PhD, 2016 (moved to Rovio)</span>
-                    </li>
-                    
-                
-                    
-                    
-                
-                    
-                    
-                
-                    
-                    
-                
-                    
-                    
-                
-                    
-                    
-                
-                    
-                    
-                
-                    
-                    
-                
-                    
-                    
-                
-                    
-                    
-                
-                    
-                    
-                
-                    
-                    
-                
-                    
-                    
-                
-                    
-                    
-                
+                    {% endif %}
+                {% endfor %}
                 </ul>
-            
-        
-        
-        
-            
-            
-            
-                <h3>Past Research Assistants</h3>
-                <ul class="people ugrad-alum">
-                
-                    
-                    
-                
-                    
-                    
-                
-                    
-                    
-                
-                    
-                    
-                
-                    
-                    
-                    <li>
-                        Ivan Kropotov
-                         <span class="bio bio-inline">MSc</span>
-                    </li>
-                    
-                
-                    
-                    
-                
-                    
-                    
-                    <li>
-                        Jiayue Xue
-                         <span class="bio bio-inline">MSc</span>
-                    </li>
-                    
-                
-                    
-                    
-                    <li>
-                        Jaana Louhio
-                         <span class="bio bio-inline">MSc</span>
-                    </li>
-                    
-                
-                    
-                    
-                    <li>
-                        <a href="https://fi.linkedin.com/in/yuan001">Yu An</a>
-                         <span class="bio bio-inline">MSc (moved to F-Secure)</span>
-                    </li>
-                    
-                
-                    
-                    
-                
-                    
-                    
-                    <li>
-                        <a href="https://fi.linkedin.com/in/jing-li-9603">Jing Li</a>
-                         <span class="bio bio-inline">MSc (moved to Huawei)</span>
-                    </li>
-                    
-                
-                    
-                    
-                    <li>
-                        <a href="https://uk.linkedin.com/in/ioannisgkiliris">Ioannis Gkiliris</a>
-                         <span class="bio bio-inline">MSc (moved to Quantexa)</span>
-                    </li>
-                    
-                
-                    
-                    
-                    <li>
-                        Chien-yu Huang
-                         <span class="bio bio-inline">MSc</span>
-                    </li>
-                    
-                
-                    
-                    
-                    <li>
-                        <a href="https://www.linkedin.com/in/dhruvtripathi/">Dhruv Tripathi</a>
-                         <span class="bio bio-inline">MSc (moved to Rabobank)</span>
-                    </li>
-                    
-                
-                    
-                    
-                    <li>
-                        Peiyu Zhang
-                         <span class="bio bio-inline">MSc</span>
-                    </li>
-                    
-                
-                    
-                    
-                
-                    
-                    
-                
-                    
-                    
-                    <li>
-                        <a href="https://fi.linkedin.com/in/evgenia-lyjina-630082a1">Evgenia Lyjina</a>
-                         <span class="bio bio-inline">Research assistant</span>
-                    </li>
-                    
-                
-                    
-                    
-                    <li>
-                        <a href="https://fi.linkedin.com/in/kalleilves">Kalle Ilves</a>
-                         <span class="bio bio-inline">Research assistant</span>
-                    </li>
-                    
-                
-                    
-                    
-                    <li>
-                        <a href="http://ksenia.konyushkova.com/">Ksenia Konyushkova</a>
-                         <span class="bio bio-inline">MSc (started PhD at EPFL)</span>
-                    </li>
-                    
-                
-                    
-                    
-                    <li>
-                        <a href="https://fi.linkedin.com/in/sayantan-hore-489b8817">Sayantan Hore</a>
-                         <span class="bio bio-inline">MSc (moved to Verto Analytics)</span>
-                    </li>
-                    
-                
-                    
-                    
-                    <li>
-                        <a href="https://fi.linkedin.com/in/lasse-tyrvainen">Lasse Tyrvainen</a>
-                         <span class="bio bio-inline">MSc (moved to Cloud'n'Sci)</span>
-                    </li>
-                    
-                
-                    
-                    
-                    <li>
-                        <a href="https://www.linkedin.com/in/gaoyuankidult">Alex Yuan Gao</a>
-                         <span class="bio bio-inline">MSc (started PhD at Uppsala University)</span>
-                    </li>
-                    
-                
-                    
-                    
-                    <li>
-                        <a href="https://fi.linkedin.com/in/haibo-jin-2260127b">Haibo Jin</a>
-                         <span class="bio bio-inline">MSc (moved to the Chinese Academy of Sciences)</span>
-                    </li>
-                    
-                
-                    
-                    
-                    <li>
-                        <a href="https://fi.linkedin.com/in/amin-sorkhei-62722911a">Amin Sorkhei</a>
-                         <span class="bio bio-inline">MSc (moved to Rovio)</span>
-                    </li>
-                    
-                
-                    
-                    
-                    <li>
-                        <a href="https://www.linkedin.com/in/wang-ping-a781773b">Ping Wang</a>
-                         <span class="bio bio-inline">MSc</span>
-                    </li>
-                    
-                
-                    
-                    
-                    <li>
-                        Kaj Sotala
-                         <span class="bio bio-inline">Research assistant</span>
-                    </li>
-                    
-                
-                    
-                    
-                    <li>
-                        Arttu Modig
-                         <span class="bio bio-inline">Research assistant</span>
-                    </li>
-                    
-                
-                    
-                    
-                    <li>
-                        Chunxiang Li
-                         <span class="bio bio-inline">Research assistant</span>
-                    </li>
-                    
-                
-                    
-                    
-                    <li>
-                        Han Xiao
-                         <span class="bio bio-inline">Research assistant</span>
-                    </li>
-                    
-                
-                </ul>
-            
-        
-        
-        
-        
+            {% endif %}
+        {% endif %}
+        {% endfor %}
     </div>
+<<<<<<< HEAD
 
 </div>
 
 
+=======
+{% endfor %}
+>>>>>>> c605b10372b00144cb060f7d02b4adb725755efe
 </div>
 
-
-      <div class="footer">
-  <p>
-    <a href="https://www.helsinki.fi/en/computer-science">Department of Computer Science</a>,
-    <a href="https://www.helsinki.fi/en/">University of Helsinki</a>
-  </p>
-</div>
-
-        </div> <!-- /container -->
-
-        <!-- Support retina images. -->
-        <script type="text/javascript"
-            src="/js/srcset-polyfill.js"></script>
-        <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-        <script src="/js/bootstrap.min.js"></script>
-        
-    </body>
-</html>
