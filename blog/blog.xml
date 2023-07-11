@@ -11,13 +11,99 @@
 	<title type="text" xml:lang="en">ESP group</title>
     <link type="application/atom+xml" href="/blog/blog.xml" rel="self"/>
     <link href="/"/>
-	<updated>2022-10-21T12:23:42+03:00</updated>
+	<updated>2023-07-11T12:07:24+03:00</updated>
     <id>/</id>
 >>>>>>> c605b10372b00144cb060f7d02b4adb725755efe
 	<author>
 		<name>the Sampa group</name>
 	</author>
 	
+	
+	<entry>
+        
+            <title>20 June 2023</title>
+            <link href="/blog/"/>
+        
+		<updated>2023-06-20T00:00:00+03:00</updated>
+        <id>/blog/2023/06/20/recsysaccept.html</id>
+		<content type="html">&lt;p&gt;Long paper accepted to &lt;a href=&quot;https://recsys.acm.org/recsys23/&quot;&gt;RecSys 2023&lt;/a&gt;!&lt;/p&gt;
+
+</content>
+	</entry>
+	
+	<entry>
+        
+            <title>15 May 2023</title>
+            <link href="/blog/"/>
+        
+		<updated>2023-05-15T00:00:00+03:00</updated>
+        <id>/blog/2023/05/15/maristart.html</id>
+		<content type="html">&lt;p&gt;Mari Lehtikari has joined the group as a summer trainee!&lt;/p&gt;
+
+</content>
+	</entry>
+	
+	<entry>
+        
+            <title>20 March 2023</title>
+            <link href="/blog/"/>
+        
+		<updated>2023-03-20T00:00:00+02:00</updated>
+        <id>/blog/2023/03/20/chiir23.html</id>
+		<content type="html">&lt;p&gt;Denis presented our paper 
+&lt;a href=&quot;https://dl.acm.org/doi/abs/10.1145/3576840.3578310&quot;&gt;Rethinking Serendipity in Recommender Systems&lt;/a&gt;
+at &lt;a href=&quot;https://sigir.org/chiir2023/&quot;&gt;CHIIR 2023&lt;/a&gt;.&lt;/p&gt;
+
+</content>
+	</entry>
+	
+	<entry>
+        
+            <title>01 February 2023</title>
+            <link href="/blog/"/>
+        
+		<updated>2023-02-01T00:00:00+02:00</updated>
+        <id>/blog/2023/02/01/ivanstart.html</id>
+		<content type="html">&lt;p&gt;Ivan Kropotov has joined the group as a software designer!&lt;/p&gt;
+
+</content>
+	</entry>
+	
+	<entry>
+        
+            <title>15 December 2022</title>
+            <link href="/blog/"/>
+        
+		<updated>2022-12-15T00:00:00+02:00</updated>
+        <id>/blog/2022/12/15/grant.html</id>
+		<content type="html">&lt;p&gt;We have received funding from &lt;a href=&quot;https://www.businessfinland.fi&quot;&gt;Business Finland&lt;/a&gt; for the R2B project “CoCreation Radar” with colleagues from The Centre for Consumer Research, University of Helsinki.&lt;/p&gt;
+
+</content>
+	</entry>
+	
+	<entry>
+        
+            <title>13 December 2022</title>
+            <link href="/blog/"/>
+        
+		<updated>2022-12-13T00:00:00+02:00</updated>
+        <id>/blog/2022/12/13/chiiraccept.html</id>
+		<content type="html">&lt;p&gt;Short paper accepted to &lt;a href=&quot;https://sigir.org/chiir2023/&quot;&gt;CHIIR 2023&lt;/a&gt;!&lt;/p&gt;
+
+</content>
+	</entry>
+	
+	<entry>
+        
+            <title>21 November 2022</title>
+            <link href="/blog/"/>
+        
+		<updated>2022-11-21T00:00:00+02:00</updated>
+        <id>/blog/2022/11/21/nokiascholarship.html</id>
+		<content type="html">&lt;p&gt;Yang was awarded a NOKIA scholarship. Congratulations!&lt;/p&gt;
+
+</content>
+	</entry>
 	
 	<entry>
         
@@ -185,92 +271,6 @@ at &lt;a href=&quot;https://eval4nlp.github.io/&quot;&gt;Eval4NLP&lt;/a&gt;, co-
 		<content type="html">&lt;p&gt;Ivan presented our paper on 
 &lt;a href=&quot;https://dl.acm.org/doi/abs/10.1145/3459637.3482103&quot;&gt;Exploratory Search of GANs with Contextual Bandits&lt;/a&gt;
 at &lt;a href=&quot;https://www.cikm2021.org/&quot;&gt;CIKM 2021&lt;/a&gt;.&lt;/p&gt;
-
-</content>
-	</entry>
-	
-	<entry>
-        
-            <title>10 October 2021</title>
-            <link href="/blog/"/>
-        
-		<updated>2021-10-10T00:00:00+03:00</updated>
-        <id>/blog/2021/10/10/eval4nlpaccept.html</id>
-		<content type="html">&lt;p&gt;Paper accepted at &lt;a href=&quot;https://eval4nlp.github.io/&quot;&gt;Eval4NLP&lt;/a&gt; workshop!&lt;/p&gt;
-
-</content>
-	</entry>
-	
-	<entry>
-        
-            <title>02 October 2021</title>
-            <link href="/blog/"/>
-        
-		<updated>2021-10-02T00:00:00+03:00</updated>
-        <id>/blog/2021/10/02/nordicai.html</id>
-		<content type="html">&lt;p&gt;Dorota was a panelist in the discussion of AI education in the Nordic region at &lt;a href=&quot;https://nordicaimeet.com/&quot;&gt;NordicAIMeet&lt;/a&gt; &lt;a href=&quot;https://twitter.com/NORAdotAI/status/1455505994591707136&quot;&gt;(photo)&lt;/a&gt;.&lt;/p&gt;
-
-</content>
-	</entry>
-	
-	<entry>
-        
-            <title>01 October 2021</title>
-            <link href="/blog/"/>
-        
-		<updated>2021-10-01T00:00:00+03:00</updated>
-        <id>/blog/2021/10/01/nordicai21.html</id>
-		<content type="html">&lt;p&gt;Yang presented our work on semantic shift detection at &lt;a href=&quot;https://nordicaimeet.com/program&quot;&gt;Nordic AI meet&lt;/a&gt; (selected for oral presentation, &lt;a href=&quot;https://pbs.twimg.com/media/FDHYTpqXIAA98MA?format=jpg&quot;&gt;photo&lt;/a&gt;).&lt;/p&gt;
-
-</content>
-	</entry>
-	
-	<entry>
-        
-            <title>10 August 2021</title>
-            <link href="/blog/"/>
-        
-		<updated>2021-08-10T00:00:00+03:00</updated>
-        <id>/blog/2021/08/10/cikmaccept.html</id>
-		<content type="html">&lt;p&gt;Short paper accepted at &lt;a href=&quot;https://www.cikm2021.org/&quot;&gt;CIKM 2021&lt;/a&gt;!&lt;/p&gt;
-
-</content>
-	</entry>
-	
-	<entry>
-        
-            <title>11 July 2021</title>
-            <link href="/blog/"/>
-        
-		<updated>2021-07-11T00:00:00+03:00</updated>
-        <id>/blog/2021/07/11/ictir21.html</id>
-		<content type="html">&lt;p&gt;Yang presented our paper 
-&lt;a href=&quot;https://dl.acm.org/doi/abs/10.1145/3471158.3472234&quot;&gt;Can Language Models Identify Wikipedia Articles with Readability and Style Issues?&lt;/a&gt;
-at &lt;a href=&quot;https://ictir2021.org/&quot;&gt;ICTIR 2021&lt;/a&gt;.&lt;/p&gt;
-
-</content>
-	</entry>
-	
-	<entry>
-        
-            <title>30 June 2021</title>
-            <link href="/blog/"/>
-        
-		<updated>2021-06-30T00:00:00+03:00</updated>
-        <id>/blog/2021/06/30/jiayuemsc.html</id>
-		<content type="html">&lt;p&gt;Congratulations to Jiayue Xue for completing his MSc!&lt;/p&gt;
-
-</content>
-	</entry>
-	
-	<entry>
-        
-            <title>14 June 2021</title>
-            <link href="/blog/"/>
-        
-		<updated>2021-06-14T00:00:00+03:00</updated>
-        <id>/blog/2021/06/14/ictiraccept.html</id>
-		<content type="html">&lt;p&gt;Paper accepted at &lt;a href=&quot;https://ictir2021.org/&quot;&gt;ICTIR 2021&lt;/a&gt;!&lt;/p&gt;
 
 </content>
 	</entry>
