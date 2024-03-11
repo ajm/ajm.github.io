@@ -11,13 +11,100 @@
 	<title type="text" xml:lang="en">ESP group</title>
     <link type="application/atom+xml" href="/blog/blog.xml" rel="self"/>
     <link href="/"/>
-	<updated>2024-03-11T09:25:41+02:00</updated>
+	<updated>2024-03-11T10:34:13+02:00</updated>
     <id>/</id>
 >>>>>>> c605b10372b00144cb060f7d02b4adb725755efe
 	<author>
 		<name>the Sampa group</name>
 	</author>
 	
+	
+	<entry>
+        
+            <title>01 March 2024</title>
+            <link href="/blog/"/>
+        
+		<updated>2024-03-01T00:00:00+02:00</updated>
+        <id>/blog/2024/03/01/chiaccept.html</id>
+		<content type="html">&lt;p&gt;Late breaking work paper accepted to &lt;a href=&quot;https://chi2024.acm.org/&quot;&gt;CHI 2024&lt;/a&gt;!&lt;/p&gt;
+
+</content>
+	</entry>
+	
+	<entry>
+        
+            <title>20 January 2024</title>
+            <link href="/blog/"/>
+        
+		<updated>2024-01-20T00:00:00+02:00</updated>
+        <id>/blog/2024/01/20/chiaccept.html</id>
+		<content type="html">&lt;p&gt;Long paper (conditionally) accepted to &lt;a href=&quot;https://chi2024.acm.org/&quot;&gt;CHI 2024&lt;/a&gt;!&lt;/p&gt;
+
+</content>
+	</entry>
+	
+	<entry>
+        
+            <title>20 December 2023</title>
+            <link href="/blog/"/>
+        
+		<updated>2023-12-20T00:00:00+02:00</updated>
+        <id>/blog/2023/12/20/researcheroftheyear.html</id>
+		<content type="html">&lt;p&gt;Yang received the Researcher of the Year award from the Department of Computer Science. Congratulations!&lt;/p&gt;
+
+</content>
+	</entry>
+	
+	<entry>
+        
+            <title>14 December 2023</title>
+            <link href="/blog/"/>
+        
+		<updated>2023-12-14T00:00:00+02:00</updated>
+        <id>/blog/2023/12/14/iuiaccept.html</id>
+		<content type="html">&lt;p&gt;Long paper accepted to &lt;a href=&quot;https://iui.acm.org/2024/&quot;&gt;IUI 2024&lt;/a&gt;!&lt;/p&gt;
+
+</content>
+	</entry>
+	
+	<entry>
+        
+            <title>12 December 2023</title>
+            <link href="/blog/"/>
+        
+		<updated>2023-12-12T00:00:00+02:00</updated>
+        <id>/blog/2023/12/12/chiiraccept.html</id>
+		<content type="html">&lt;p&gt;Long paper accepted to &lt;a href=&quot;https://chiir2024.github.io/&quot;&gt;CHIIR 2024&lt;/a&gt;!&lt;/p&gt;
+
+</content>
+	</entry>
+	
+	<entry>
+        
+            <title>26 October 2023</title>
+            <link href="/blog/"/>
+        
+		<updated>2023-10-26T00:00:00+03:00</updated>
+        <id>/blog/2023/10/26/peopleflow.html</id>
+		<content type="html">&lt;p&gt;&lt;a href=&quot;https://www.businessfinland.fi&quot;&gt;Business Finland&lt;/a&gt; have agreed to fund our project “Untangling People Flow for Smart and Sustainable Urban Environments”. Consortium partners include: University of Helsinki, University of Oulu, University of Lapland, VTT, Kone, Elisa, Finavia, Haltian, Workspace, Granlund and City of Helsinki.&lt;/p&gt;
+
+</content>
+	</entry>
+	
+	<entry>
+        
+            <title>21 September 2023</title>
+            <link href="/blog/"/>
+        
+		<updated>2023-09-21T00:00:00+03:00</updated>
+        <id>/blog/2023/09/21/recsys23.html</id>
+		<content type="html">&lt;p&gt;Yang presented our papers 
+&lt;a href=&quot;https://dl.acm.org/doi/abs/10.1145/3604915.3608809&quot;&gt;What We Evaluate When We Evaluate Recommender Systems: Understanding Recommender Systems’ Performance using Item Response Theory&lt;/a&gt; and 
+&lt;a href=&quot;https://dl.acm.org/doi/abs/10.1145/3604915.3610651&quot;&gt;On the Consistency, Discriminative Power and Robustness of Sampled Metrics in Offline Top-n Recommender System Evaluation&lt;/a&gt;
+at &lt;a href=&quot;https://recsys.acm.org/recsys23/&quot;&gt;RecSys 2023&lt;/a&gt;.&lt;/p&gt;
+
+</content>
+	</entry>
 	
 	<entry>
         
@@ -179,96 +266,6 @@ at &lt;a href=&quot;https://www.um.org/umap2022/&quot;&gt;UMAP 2022&lt;/a&gt;.&l
 		<content type="html">&lt;p&gt;Denis presented our paper 
 &lt;a href=&quot;https://dl.acm.org/doi/abs/10.1145/3477314.3507270&quot;&gt;Rating Consistency is Consistently Underrated: An Exploratory Analysis of Movie-Tag Rating Inconsistency&lt;/a&gt;
 at &lt;a href=&quot;https://www.sigapp.org/sac/sac2022/&quot;&gt;SAC 2022&lt;/a&gt;.&lt;/p&gt;
-
-</content>
-	</entry>
-	
-	<entry>
-        
-            <title>11 April 2022</title>
-            <link href="/blog/"/>
-        
-		<updated>2022-04-11T00:00:00+03:00</updated>
-        <id>/blog/2022/04/11/umapaccept.html</id>
-		<content type="html">&lt;p&gt;Long paper accepted to &lt;a href=&quot;https://www.um.org/umap2022/&quot;&gt;UMAP 2022&lt;/a&gt;!&lt;/p&gt;
-
-</content>
-	</entry>
-	
-	<entry>
-        
-            <title>31 March 2022</title>
-            <link href="/blog/"/>
-        
-		<updated>2022-03-31T00:00:00+03:00</updated>
-        <id>/blog/2022/03/31/sigiraccept.html</id>
-		<content type="html">&lt;p&gt;Demo paper accepted to &lt;a href=&quot;https://sigir.org/sigir2022/&quot;&gt;SIGIR 2022&lt;/a&gt;!&lt;/p&gt;
-
-</content>
-	</entry>
-	
-	<entry>
-        
-            <title>14 March 2022</title>
-            <link href="/blog/"/>
-        
-		<updated>2022-03-14T00:00:00+02:00</updated>
-        <id>/blog/2022/03/14/chiir.html</id>
-		<content type="html">&lt;p&gt;Denis presented 
-&lt;a href=&quot;https://dl.acm.org/doi/10.1145/3498366.3505833&quot;&gt;The Tag Genome Dataset for Books&lt;/a&gt;
-at &lt;a href=&quot;https://sigir.org/chiir2019/&quot;&gt;CHIIR 2022&lt;/a&gt; in Regensburg, Germany.&lt;/p&gt;
-
-</content>
-	</entry>
-	
-	<entry>
-        
-            <title>11 February 2022</title>
-            <link href="/blog/"/>
-        
-		<updated>2022-02-11T00:00:00+02:00</updated>
-        <id>/blog/2022/02/11/sigirforum.html</id>
-		<content type="html">&lt;p&gt;Alan and Dorota’s review article 
-&lt;a href=&quot;https://www.sigir.org/wp-content/uploads/2022/02/p03.pdf&quot;&gt;Game Over? A Review of Gamification in Information Retrieval&lt;/a&gt;
-is now availble online on the &lt;a href=&quot;http://sigir.org/forum/issues/december-2021/&quot;&gt;SIGIR Forum website&lt;/a&gt;.&lt;/p&gt;
-
-</content>
-	</entry>
-	
-	<entry>
-        
-            <title>12 December 2021</title>
-            <link href="/blog/"/>
-        
-		<updated>2021-12-12T00:00:00+02:00</updated>
-        <id>/blog/2021/12/12/sacaccept.html</id>
-		<content type="html">&lt;p&gt;Long paper accepted to the &lt;a href=&quot;https://recsystrack.wordpress.com/&quot;&gt;Recommender Systems track&lt;/a&gt; at &lt;a href=&quot;http://www.sigapp.org/sac/sac2022/&quot;&gt;SAC 2022&lt;/a&gt;!&lt;/p&gt;
-
-</content>
-	</entry>
-	
-	<entry>
-        
-            <title>07 December 2021</title>
-            <link href="/blog/"/>
-        
-		<updated>2021-12-07T00:00:00+02:00</updated>
-        <id>/blog/2021/12/07/chiiraccept.html</id>
-		<content type="html">&lt;p&gt;Resources paper accepted at &lt;a href=&quot;https://ai.ur.de/chiir2022/&quot;&gt;CHIIR 2022&lt;/a&gt;!&lt;/p&gt;
-
-</content>
-	</entry>
-	
-	<entry>
-        
-            <title>10 November 2021</title>
-            <link href="/blog/"/>
-        
-		<updated>2021-11-10T00:00:00+02:00</updated>
-        <id>/blog/2021/11/10/eval4nlp.html</id>
-		<content type="html">&lt;p&gt;Yang presented our paper 
-&lt;a href=&quot;https://arxiv.org/abs/2104.03776&quot;&gt;Statistically Significant Detection of Semantic Shifts using Contextual Word Embeddings&lt;/a&gt;
-at &lt;a href=&quot;https://eval4nlp.github.io/&quot;&gt;Eval4NLP&lt;/a&gt;, co-located with EMNLP 2021.&lt;/p&gt;
 
 </content>
 	</entry>
