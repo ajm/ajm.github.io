@@ -11,13 +11,77 @@
 	<title type="text" xml:lang="en">ESP group</title>
     <link type="application/atom+xml" href="/blog/blog.xml" rel="self"/>
     <link href="/"/>
-	<updated>2025-07-31T18:07:07+03:00</updated>
+	<updated>2025-07-31T19:39:11+03:00</updated>
     <id>/</id>
 >>>>>>> c605b10372b00144cb060f7d02b4adb725755efe
 	<author>
 		<name>the Sampa group</name>
 	</author>
 	
+	
+	<entry>
+        
+            <title>03 July 2025</title>
+            <link href="/blog/"/>
+        
+		<updated>2025-07-03T00:00:00+03:00</updated>
+        <id>/blog/2025/07/03/recsysaccept.html</id>
+		<content type="html">&lt;p&gt;Short paper accepted at &lt;a href=&quot;https://recsys.acm.org/recsys25/&quot;&gt;RecSys 2025&lt;/a&gt;!&lt;/p&gt;
+
+</content>
+	</entry>
+	
+	<entry>
+        
+            <title>25 June 2025</title>
+            <link href="/blog/"/>
+        
+		<updated>2025-06-25T00:00:00+03:00</updated>
+        <id>/blog/2025/06/25/facct25.html</id>
+		<content type="html">&lt;p&gt;Alina presented our paper 
+&lt;a href=&quot;https://dl.acm.org/doi/full/10.1145/3715275.3732139&quot;&gt;Evaluating the contextual integrity of false positives in algorithmic travel surveillance&lt;/a&gt; 
+at &lt;a href=&quot;https://facctconference.org/2025/&quot;&gt;FAccT 2025&lt;/a&gt;.&lt;/p&gt;
+
+</content>
+	</entry>
+	
+	<entry>
+        
+            <title>11 April 2025</title>
+            <link href="/blog/"/>
+        
+		<updated>2025-04-11T00:00:00+03:00</updated>
+        <id>/blog/2025/04/11/facctaccept.html</id>
+		<content type="html">&lt;p&gt;Long paper accepted to &lt;a href=&quot;https://facctconference.org/2025/&quot;&gt;FAccT 2025&lt;/a&gt;!&lt;/p&gt;
+
+</content>
+	</entry>
+	
+	<entry>
+        
+            <title>26 March 2025</title>
+            <link href="/blog/"/>
+        
+		<updated>2025-03-26T00:00:00+02:00</updated>
+        <id>/blog/2025/03/26/chiir25.html</id>
+		<content type="html">&lt;p&gt;Denis presented our paper 
+&lt;a href=&quot;https://dl.acm.org/doi/abs/10.1145/3698204.3716473&quot;&gt;Paths and recreation: Inclusive recommendation of physical activities in your neighbourhood&lt;/a&gt; 
+at &lt;a href=&quot;https://chiir2025.github.io/&quot;&gt;CHIIR 2025&lt;/a&gt;.&lt;/p&gt;
+
+</content>
+	</entry>
+	
+	<entry>
+        
+            <title>10 February 2025</title>
+            <link href="/blog/"/>
+        
+		<updated>2025-02-10T00:00:00+02:00</updated>
+        <id>/blog/2025/02/10/swirl.html</id>
+		<content type="html">&lt;p&gt;Dorota attended the (invitation only) 4th &lt;a href=&quot;https://sites.google.com/view/swirl2025/home&quot;&gt;Strategic Workshop on Information Retrieval at Lorne&lt;/a&gt; (SWIRL).&lt;/p&gt;
+
+</content>
+	</entry>
 	
 	<entry>
         
@@ -38,7 +102,7 @@
         
 		<updated>2024-08-07T00:00:00+03:00</updated>
         <id>/blog/2024/08/07/sigirforumaccept.html</id>
-		<content type="html">&lt;p&gt;Our paper &lt;a href=&quot;https://dl.acm.org/doi/abs/10.1145/3687273.3687278&quot;&gt;“Unexplored frontiers: A review of empirical studies of exploratory search”&lt;/a&gt; was published in SIGIR Forum.&lt;/p&gt;
+		<content type="html">&lt;p&gt;Our paper &lt;a href=&quot;https://dl.acm.org/doi/abs/10.1145/3687273.3687278&quot;&gt;“Unexplored frontiers: A review of empirical studies of exploratory search”&lt;/a&gt; was published in &lt;a href=&quot;https://sigir.org/forum/&quot;&gt;SIGIR Forum&lt;/a&gt;.&lt;/p&gt;
 
 </content>
 	</entry>
@@ -53,6 +117,22 @@
 		<content type="html">&lt;p&gt;Yang presented our paper 
 &lt;a href=&quot;https://dl.acm.org/doi/abs/10.1145/3626772.3657735&quot;&gt;On the Negative Perception of Cross-domain Recommendations and Explanations&lt;/a&gt;
 at &lt;a href=&quot;https://sigir-2024.github.io/&quot;&gt;SIGIR 2024&lt;/a&gt;.&lt;/p&gt;
+
+</content>
+	</entry>
+	
+	<entry>
+        
+            <title>11 May 2024</title>
+            <link href="/blog/"/>
+        
+		<updated>2024-05-11T00:00:00+03:00</updated>
+        <id>/blog/2024/05/11/chi24.html</id>
+		<content type="html">&lt;p&gt;Alan (remotely) presented our papers 
+&lt;a href=&quot;https://dl.acm.org/doi/full/10.1145/3613904.3642412&quot;&gt;Behind the scenes: Adapting cinematography and editing concepts to navigation in virtual reality&lt;/a&gt; 
+and 
+&lt;a href=&quot;https://dl.acm.org/doi/abs/10.1145/3613905.3650916&quot;&gt;Read the Fine Print: Assessing the User Experience of Reading in High Resolution Virtual Reality&lt;/a&gt; 
+at &lt;a href=&quot;https://chi2024.acm.org/&quot;&gt;CHI 2024&lt;/a&gt;.&lt;/p&gt;
 
 </content>
 	</entry>
@@ -190,80 +270,6 @@ at &lt;a href=&quot;https://recsys.acm.org/recsys23/&quot;&gt;RecSys 2023&lt;/a&
 		<updated>2023-06-20T00:00:00+03:00</updated>
         <id>/blog/2023/06/20/recsysaccept.html</id>
 		<content type="html">&lt;p&gt;Long paper accepted to &lt;a href=&quot;https://recsys.acm.org/recsys23/&quot;&gt;RecSys 2023&lt;/a&gt;!&lt;/p&gt;
-
-</content>
-	</entry>
-	
-	<entry>
-        
-            <title>15 May 2023</title>
-            <link href="/blog/"/>
-        
-		<updated>2023-05-15T00:00:00+03:00</updated>
-        <id>/blog/2023/05/15/maristart.html</id>
-		<content type="html">&lt;p&gt;Mari Lehtikari has joined the group as a summer trainee!&lt;/p&gt;
-
-</content>
-	</entry>
-	
-	<entry>
-        
-            <title>20 March 2023</title>
-            <link href="/blog/"/>
-        
-		<updated>2023-03-20T00:00:00+02:00</updated>
-        <id>/blog/2023/03/20/chiir23.html</id>
-		<content type="html">&lt;p&gt;Denis presented our paper 
-&lt;a href=&quot;https://dl.acm.org/doi/abs/10.1145/3576840.3578310&quot;&gt;Rethinking Serendipity in Recommender Systems&lt;/a&gt;
-at &lt;a href=&quot;https://sigir.org/chiir2023/&quot;&gt;CHIIR 2023&lt;/a&gt;.&lt;/p&gt;
-
-</content>
-	</entry>
-	
-	<entry>
-        
-            <title>01 February 2023</title>
-            <link href="/blog/"/>
-        
-		<updated>2023-02-01T00:00:00+02:00</updated>
-        <id>/blog/2023/02/01/ivanstart.html</id>
-		<content type="html">&lt;p&gt;Ivan Kropotov has joined the group as a software designer!&lt;/p&gt;
-
-</content>
-	</entry>
-	
-	<entry>
-        
-            <title>15 December 2022</title>
-            <link href="/blog/"/>
-        
-		<updated>2022-12-15T00:00:00+02:00</updated>
-        <id>/blog/2022/12/15/grant.html</id>
-		<content type="html">&lt;p&gt;We have received funding from &lt;a href=&quot;https://www.businessfinland.fi&quot;&gt;Business Finland&lt;/a&gt; for the R2B project “CoCreation Radar” with colleagues from The Centre for Consumer Research, University of Helsinki.&lt;/p&gt;
-
-</content>
-	</entry>
-	
-	<entry>
-        
-            <title>13 December 2022</title>
-            <link href="/blog/"/>
-        
-		<updated>2022-12-13T00:00:00+02:00</updated>
-        <id>/blog/2022/12/13/chiiraccept.html</id>
-		<content type="html">&lt;p&gt;Short paper accepted to &lt;a href=&quot;https://sigir.org/chiir2023/&quot;&gt;CHIIR 2023&lt;/a&gt;!&lt;/p&gt;
-
-</content>
-	</entry>
-	
-	<entry>
-        
-            <title>21 November 2022</title>
-            <link href="/blog/"/>
-        
-		<updated>2022-11-21T00:00:00+02:00</updated>
-        <id>/blog/2022/11/21/nokiascholarship.html</id>
-		<content type="html">&lt;p&gt;Yang was awarded a NOKIA scholarship. Congratulations!&lt;/p&gt;
 
 </content>
 	</entry>
